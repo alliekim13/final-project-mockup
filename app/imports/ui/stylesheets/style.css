@@ -1,0 +1,9 @@
+.home-body {
+  background: url('/images/homepage_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.user-body {
+  background: url('/images/user_home2.jpg') no-repeat center center fixed;
+  background-size: cover;
+}

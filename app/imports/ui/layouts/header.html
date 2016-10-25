@@ -1,0 +1,9 @@
+<template name="Header">
+    <div class="ui container">
+      <a class="item" href="{{pathFor 'Home_Page'}}"><h1>Alloy</h1></a>
+      <a class="{{ isActiveRoute 'Add_Contact_Page'}} item" href="{{ pathFor 'Add_Contact_Page' }}">Add Contact</a>
+
+
+      <a href="#" class="item">{{> loginButtons }} </a>
+    </div>
+</template>
